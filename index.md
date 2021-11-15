@@ -37,6 +37,6 @@ Contents:
 
 <br/>
 
-## Entity Manager Component[](#entity-manager-drivers)
+## Drivers for EntityManager[](#entity-manager-drivers)
 [![EntityManager - class diagram-Drivers](Diagrams/EntityManager - class diagram-Drivers.png)](Diagrams/EntityManager - class diagram-Drivers.png)
 
