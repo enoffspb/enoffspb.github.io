@@ -1,3 +1,5 @@
+# Sign Language Recognition System
+
 Hello everyone. It is a project about developing an AI system for recognition sign languages.
 Also, it is a workbook about Object-Oriented Analysis and Design.
 This project is based on the knowledge received at work in Surdo Online, IT-V LTD, with CEO - Alexey Melnik
@@ -12,7 +14,8 @@ The important things for us are the following:
  - For distinct countries and regions languages are different.
 
 And our scene likes this:
-![a scene image](../images/surdo-scene.png)
+
+![a scene image](../images/surdo-scene.png)  
 *the photo is from surdoserver.ru*
 
 The main aspect of the suggested solution is an architecture of the system.
@@ -65,7 +68,7 @@ And finally, we need an output video. There are some reasons:
 - add controls and text information
 - make reports with results of testing for a control department
 
-It will be a **DebugOutputInterface** with the following an external interface:
+It will be a **DebugOutputInterface** with the following external interface:
 ```
 interface DebugOutputInterface {
     onFrame
