@@ -13,30 +13,30 @@ Contents:
 <br/>
 
 ## Marketing Analytics System[](#marketing-analytics-system)
-[![Marketing Analytics System](Diagrams/Marketing Analytics System.png)](Diagrams/Marketing Analytics System.png)
+[![Marketing Analytics System](diagrams/Marketing Analytics System.png)](diagrams/Marketing Analytics System.png)
 
 <br/>
 
 ## SMS Gate[](#sms-gate)
-[![SMS Gate](Diagrams/SMS Gate.png)](Diagrams/SMS Gate.png)
+[![SMS Gate](diagrams/SMS Gate.png)](diagrams/SMS Gate.png)
 
 <br/>
 
 ## Video Conference System[](#video-conference-system)
-[![Video Conference System](Diagrams/Video Conference System.drawio.png)](Diagrams/Video Conference System.drawio.png)
+[![Video Conference System](diagrams/Video Conference System.drawio.png)](diagrams/Video Conference System.drawio.png)
 
 <br/>
 
 ## Video Conference Backend Component[](#video-conference-backend-component)
-[![Conference Backend Component](Diagrams/Conference Backend Component.png)](Diagrams/Conference Backend Component.png)
+[![Conference Backend Component](diagrams/Conference Backend Component.png)](diagrams/Conference Backend Component.png)
 
 <br/>
 
 ## Entity Manager Component[](#entity-manager-component)
-[![EntityManager - class diagram](Diagrams/EntityManager - class diagram.png)](Diagrams/EntityManager - class diagram.png)
+[![EntityManager - class diagram](diagrams/EntityManager - class diagram.png)](diagrams/EntityManager - class diagram.png)
 
 <br/>
 
 ## Drivers for EntityManager[](#entity-manager-drivers)
-[![EntityManager - class diagram-Drivers](Diagrams/EntityManager - class diagram-Drivers.png)](Diagrams/EntityManager - class diagram-Drivers.png)
+[![EntityManager - class diagram-Drivers](diagrams/EntityManager - class diagram-Drivers.png)](diagrams/EntityManager - class diagram-Drivers.png)
 
