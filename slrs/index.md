@@ -52,7 +52,7 @@ interface OutputInterface {
 }
 ```
 
-The output must return results in a defined format, at the start it will be like this:
+The output returns a result in a defined format, at the start it will be like this:
 ```
 struct RecognizedElement {
     int id, // or it may be "code", for example
@@ -78,5 +78,33 @@ About its internal interface we'll talk later.
 
 In a result we have defined clear boundaries of the component and have stated it with a UML diagram.
 
-[![a UML diagram](../diagrams/RecognitionComponent.1.drawio.png)](../diagrams/RecognitionComponent.1.drawio.png)
+[![a UML component diagram](../diagrams/RecognitionComponent.1.drawio.png)](../diagrams/RecognitionComponent.1.drawio.png)
+
+
+# Implementation of the RecognitionComponent
+
+Let's discover an internal view of the component. We suggest an approach composed of a set of computer vision
+and machine learning algorithms.
+
+A computer vision part is the following:
+ - The **Preprocessor** prepares a video stream, removes a noise, calibrates a frame, and so on.
+ - The **FaceDetector** and the **FaceTracker**. By a face we set a system of coordinates for our scene.
+ - The **HandsDetector** for detecting areas with hands.
+ - The **HandsTracker** for tracking given objects.
+ - The **HandsValueGetter** for extracting values from areas with hands.
+
+In this way, we manually control all the objects and retrieve a result in a very approximate format.
+In the easiest case a hand may be just a point with x,y coordinates and with a path presented as a curved line.
+The data can be presented as a binary image or a sparse matrix which are suitable data structures for dealing with ML algorithms.
+Further we need to describe hands by a value that characterizes a hand form. It is an integral image, for example.
+However, it is a concern of the **HandsValueGetter** and a value is must be returned in a defined format.
+
+Detector and tracker objects are different because their computer vision algorithms and approaches are different too.
+
+A manager of the recognition process is the **RecognitionComponent** that deals with the described objects, puts a current frame and a buffer of frames to them, and invokes
+methods of public interfaces.
+
+The first iteration of analysis and design is complete. In the next chapter we are going to start implementation and continue the analysis and design phase.
+
+[![a UML component diagram](../diagrams/RecognitionComponent.2.drawio.png)](../diagrams/RecognitionComponent.2.drawio.png)
 
