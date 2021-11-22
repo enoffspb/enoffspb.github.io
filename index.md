@@ -45,7 +45,7 @@ Contents:
 
 ## Sign Language Recognition System
 
-The **RecognitionComponent** for the system. Read more at [a blog about developing Sign Language Recognition System](/srls/index.md)
+The **RecognitionComponent** for the system. Read more at [a blog about developing Sign Language Recognition System](/slrs/).
 
 [![RecognitionComponent diagram](diagrams/RecognitionComponent.2.drawio.png)](diagrams/RecognitionComponent.2.drawio.png)
 
